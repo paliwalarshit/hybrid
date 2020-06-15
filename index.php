@@ -1,12 +1,8 @@
-<!DOCTYPE html>
 <html>
-<body>
-
-<h1>Welcome to my page!!</h1>
-
+Hello from Cloud
+<pre>
 <?php
-
-echo "This page has been created to test my enviornment.";
-?> 
-</body>
+print `ifconfig`;
+?>
+</pre>
 </html>
